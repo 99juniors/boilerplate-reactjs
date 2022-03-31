@@ -1,7 +1,7 @@
 function App() {
   let name = "@diegosilvatech"
 
-  console.log(name)
+  console.log(name);
 
   return (
     <div className="App">
