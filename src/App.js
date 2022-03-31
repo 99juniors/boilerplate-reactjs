@@ -1,5 +1,5 @@
 function App() {
-  const name = 'teste';
+  const name = 'teste2';
   console.log(name);
   return (
     <div className="App">
