@@ -26,10 +26,10 @@ const GlobalStyles = createGlobalStyle`
   
   ${normalize};
 
-
   html {
     font-size: 50%;
   }
+
   html,
   body {
     height: 100%;
@@ -37,6 +37,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.colors.white};
     font-family: ${({ theme }) => theme.font.family};
+    font-size: ${({ theme }) => theme.font.sizes.default};
   }
 `;
 
