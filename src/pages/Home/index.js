@@ -1,5 +1,7 @@
+import * as s from './styles';
+
 const HomePage = () => {
-  return <div>HOMEPAGE/</div>;
+  return <s.HomePageWrapper>homePage/</s.HomePageWrapper>;
 };
 
 export default HomePage;
