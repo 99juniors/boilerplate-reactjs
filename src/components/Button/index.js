@@ -1,5 +1,6 @@
 import { ButtonWrapper } from './styles';
 
-const Button = () => <ButtonWrapper>click-me</ButtonWrapper>;
+// eslint-disable-next-line react/prop-types
+const Button = ({ children }) => <ButtonWrapper>{children}</ButtonWrapper>;
 
 export default Button;

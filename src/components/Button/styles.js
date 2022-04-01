@@ -9,7 +9,7 @@ export const ButtonWrapper = styled.button`
 
     border: 0.25rem solid ${theme.colors.black};
     border-radius: ${theme.border.radius.small};
-    background-color: ${theme.colors.primary};
+    background-color: ${theme.colors.white};
     padding: ${theme.spacings.small} ${theme.spacings.medium};
   `}
 `;
