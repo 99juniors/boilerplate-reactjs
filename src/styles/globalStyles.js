@@ -13,14 +13,14 @@ const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     src: local('Montserrat Regular'), local('Montserrat-Regular'), url('/fonts/Montserrat-Regular.ttf') format('truetype');
   }
   
   @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     src: local('Montserrat Bold'), local('Montserrat-Bold'), url('/fonts/Montserrat-Bold.ttf') format('truetype');
   }
   

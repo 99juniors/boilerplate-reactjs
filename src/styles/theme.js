@@ -16,6 +16,13 @@ export default {
     large: '3rem',
     extraLarge: '4rem'
   },
+  layers: {
+    base: 10,
+    menu: 20,
+    overlay: 30,
+    modal: 40,
+    alwaysOnTop: 50
+  },
   font: {
     family:
       "Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
@@ -29,6 +36,11 @@ export default {
       heading: '4.875rem',
       display: '6.125rem',
       huge: '7.625rem'
+    },
+    weights: {
+      light: 300,
+      regular: 400,
+      bold: 700
     }
   }
 };
