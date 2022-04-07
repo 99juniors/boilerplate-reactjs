@@ -6,6 +6,7 @@ export default {
   args: {
     children: 'button',
     variant: 'default',
+    isFullWidth: false,
     onClick: () => console.log('clicou')
   },
   argTypes: {
@@ -33,6 +34,15 @@ export default {
       },
       control: {
         type: 'text'
+      }
+    },
+    isFullWidth: {
+      name: 'isFullWidth',
+      type: { name: 'boolean', required: false },
+      defaultValue: 'false',
+      description: 'set button as full with',
+      table: {
+        type: { summary: 'boolean' }
       }
     },
     onClick: {
