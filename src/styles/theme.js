@@ -1,13 +1,8 @@
 export default {
   colors: {
     primary: '#ED145B',
-
     white: '#FFFFFF',
-    black: '#000000',
-
-    pinkFirst: '#ED145B',
-    pinkSecond: '#FF4785',
-    pinkThird: '#CB1E40'
+    black: '#000000'
   },
   border: {
     radius: {

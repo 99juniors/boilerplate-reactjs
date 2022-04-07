@@ -1,15 +1,31 @@
 import styled, { css } from 'styled-components';
 
+const buttonModifiers = {
+  default: (theme) => css`
+    background-color: ${theme.colors.black};
+    color: white;
+  `,
+  primary: (theme) => css`
+    background-color: ${theme.colors.primary};
+    color: ${theme.colors.white};
+    border-color: ${theme.colors.primary};
+  `,
+  secondary: (theme) => css`
+    background-color: ${theme.colors.white};
+    color: ${theme.colors.black};
+  `
+};
+
 export const ButtonWrapper = styled.button`
   cursor: pointer;
 
-  ${({ theme }) => css`
+  ${({ theme, variant }) => css`
     font-family: ${theme.font.family};
     font-size: ${theme.font.sizes.default};
-
     border: 0.25rem solid ${theme.colors.black};
     border-radius: ${theme.border.radius.small};
-    background-color: ${theme.colors.primary};
     padding: ${theme.spacings.small} ${theme.spacings.medium};
+
+    ${!!variant && buttonModifiers[variant](theme)};
   `}
 `;

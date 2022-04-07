@@ -7,8 +7,10 @@ const HomePage = () => {
   return (
     <s.HomePageWrapper>
       <s.ContentWrapper>
-        <h1>HOME PAGE</h1>
-        <Button onClick={handleClick}>VAI LÁ FILHÃO</Button>
+        <h1>CLIQUE NO BOTÃO PARA COMPRAR</h1>
+        <br />
+        <br />
+        <Button onClick={handleClick}>adicionar ao carrinho</Button>
       </s.ContentWrapper>
     </s.HomePageWrapper>
   );
