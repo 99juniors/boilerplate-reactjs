@@ -4,12 +4,13 @@ export default {
   title: 'Button',
   component: Button,
   args: {
-    children: 'LIVE DO DIEGÃO'
+    children: 'button',
+    onClick: () => console.log('clicou')
   }
 };
 
 export const Default = (args) => {
   const { children } = args;
 
-  return <Button>{children}</Button>;
+  return <Button {...args}>{children}</Button>;
 };
