@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <s.HomePageWrapper>
       <s.ContentWrapper>
-        <h1>CLIQUE NO BOTÃO PARA COMPRAR</h1>
+        <h1>HOMEPAGE/</h1>
         <br />
         <br />
         <Button onClick={handleClick}>adicionar ao carrinho</Button>
