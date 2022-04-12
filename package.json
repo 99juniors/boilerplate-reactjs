@@ -15,7 +15,8 @@
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "generate": "plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -73,6 +74,7 @@
     "eslint-plugin-react-hooks": "^4.4.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
+    "plop": "^3.0.5",
     "prettier": "^2.6.1",
     "styled-components": "^5.3.5",
     "webpack": "^5.71.0"
