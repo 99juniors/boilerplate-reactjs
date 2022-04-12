@@ -23,6 +23,18 @@ module.exports = (plop) => {
         type: 'add',
         path: '../src/components/{{pascalCase name}}/stories.js',
         templateFile: 'templates/component-stories.js.hbs'
+      },
+      {
+        type: 'append',
+        path: '../src/components/index.js',
+        pattern: `/* COMPONENT_INJECT_IMPORT */`,
+        template: `import {{pascalCase name}} from './{{pascalCase name}}';`
+      },
+      {
+        type: 'append',
+        path: '../src/components/index.js',
+        pattern: `/* COMPONENT_INJECT_EXPORT */`,
+        template: `  {{pascalCase name}},`
       }
     ]
   });
