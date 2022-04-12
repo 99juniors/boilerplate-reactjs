@@ -56,7 +56,7 @@ npm run storybook
 
 ```jsx
 // creates a new component. to create a Button component, for example, run: npm run generate Button
-npm run generate <ComponentName>
+npm run generate component <ComponentName>
 ```
 
 ---
