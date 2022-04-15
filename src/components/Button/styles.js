@@ -25,7 +25,7 @@ export const ButtonWrapper = styled.button`
     border: 0.25rem solid ${theme.colors.black};
     border-radius: ${theme.border.radius.small};
     padding: ${theme.spacings.small} ${theme.spacings.medium};
-    width: ${isFullWidth ? '100%' : 'auto'};
+    width: ${isFullWidth ? '100%' : 'unset'};
 
     ${!!variant && buttonModifiers[variant](theme)};
   `}
