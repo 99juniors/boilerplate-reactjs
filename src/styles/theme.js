@@ -6,7 +6,9 @@ export default {
   },
   border: {
     radius: {
-      small: '0.5rem'
+      small: '0.5rem',
+      medium: '1rem',
+      large: '2rem'
     }
   },
   spacings: {
